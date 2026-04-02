@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chonsa Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f8fb;
+        --card: #ffffff;
+        --text: #172033;
+        --muted: #586174;
+        --border: #d8dfeb;
+        --accent: #2563eb;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      main {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 40px 20px 64px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 32px;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+      }
+
+      h1, h2 {
+        line-height: 1.2;
+        margin: 0 0 16px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        margin-top: 32px;
+        font-size: 1.25rem;
+      }
+
+      p, li {
+        color: var(--text);
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      ul {
+        padding-left: 22px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      .note {
+        margin-top: 24px;
+        padding: 16px 18px;
+        border-radius: 14px;
+        background: #eff6ff;
+        border: 1px solid #bfdbfe;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <h1>Chonsa Privacy Policy</h1>
+        <p class="muted">Last updated: April 2, 2026</p>
+
+        <p>
+          This Privacy Policy describes how Chonsa Chromebook Safety collects, uses, stores, and discloses information when a parent or guardian uses the Chonsa Chromebook Safety Chrome extension together with the Chonsa parent dashboard and backend services.
+        </p>
+
+        <h2>Who This Product Is For</h2>
+        <p>
+          Chonsa Chromebook Safety is intended for private family use by a parent or guardian who chooses to connect and supervise a Chromebook they manage. It is not a general consumer browsing utility.
+        </p>
+
+        <h2>What Information Chonsa Collects</h2>
+        <p>When the extension is installed and paired, Chonsa may collect and process the following information:</p>
+        <ul>
+          <li>Visited page URLs</li>
+          <li>Page titles</li>
+          <li>Navigation event type and timestamp</li>
+          <li>Visible-tab screenshots captured periodically and after tab or window context changes</li>
+          <li>Extension-install activity, including installed extension name and identifier</li>
+          <li>Device pairing status, device name, and operational state needed to keep the service running</li>
+          <li>Queued upload data temporarily stored on the Chromebook when connectivity is interrupted</li>
+        </ul>
+
+        <p>
+          Because Chonsa captures the visible browser tab, screenshots may incidentally contain sensitive information displayed in the browser, including personal information, communications, account pages, financial information, health-related information, authentication screens, or location-related content, depending on what is visible on the device at the time of capture.
+        </p>
+
+        <h2>How Chonsa Uses Information</h2>
+        <p>Chonsa uses collected information to:</p>
+        <ul>
+          <li>Show the parent or guardian recent Chromebook activity in the parent dashboard</li>
+          <li>Display captured browser context for parental review</li>
+          <li>Apply blocked-domain rules configured by the parent or guardian</li>
+          <li>Maintain pairing, synchronization, and operational status for the supervised Chromebook</li>
+          <li>Retry failed uploads when the device is temporarily offline</li>
+        </ul>
+
+        <h2>Where Information Is Stored</h2>
+        <p>
+          Chonsa stores collected data using backend infrastructure configured by the project owner. In the current deployment, that includes Supabase database and storage services. Screenshots are stored in a private storage bucket and are intended to be accessible only to the authenticated parent account associated with the paired device.
+        </p>
+
+        <h2>How Information Is Shared</h2>
+        <p>
+          Chonsa does not sell personal data collected through the extension. Information is shared only as necessary to operate the service for its single purpose, including:
+        </p>
+        <ul>
+          <li>With backend and hosting providers used to run the Chonsa service</li>
+          <li>With the authenticated parent or guardian account associated with the supervised Chromebook</li>
+          <li>When required by law, regulation, legal process, or enforceable governmental request</li>
+        </ul>
+
+        <h2>Data Retention</h2>
+        <p>
+          Chonsa does not currently promise an automatic deletion schedule. Data may remain stored until it is deleted by the project owner, removed from the deployed backend, or otherwise cleared through future account-management functionality.
+        </p>
+
+        <h2>Security</h2>
+        <p>
+          Chonsa uses authentication, private storage controls, and backend access rules intended to limit access to collected data. However, no method of electronic storage or transmission is completely secure, and Chonsa cannot guarantee absolute security.
+        </p>
+
+        <h2>Children's Privacy</h2>
+        <p>
+          Chonsa is intended to be configured by a parent or guardian for a device they manage. The extension is not intended to be independently installed or managed by a child.
+        </p>
+
+        <h2>Your Choices</h2>
+        <p>
+          A parent or guardian may stop future collection by disabling or uninstalling the extension, disconnecting the deployed backend, or discontinuing use of the Chonsa dashboard and associated services.
+        </p>
+
+        <h2>Changes to This Policy</h2>
+        <p>
+          This Privacy Policy may be updated from time to time. When the policy changes, the updated version will be posted at this URL with a revised “Last updated” date.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          For privacy questions about Chonsa, contact: <strong>REPLACE-WITH-CONTACT-EMAIL</strong>
+        </p>
+
+        <div class="note">
+          Before publishing this page, replace <strong>REPLACE-WITH-CONTACT-EMAIL</strong> with the email address you want Chrome Web Store reviewers and users to use for privacy questions.
+        </div>
+      </section>
+    </main>
+  </body>
+  </html>
